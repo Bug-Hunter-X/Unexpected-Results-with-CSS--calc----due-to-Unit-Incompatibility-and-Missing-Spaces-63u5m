@@ -1,0 +1,2 @@
+# Unexpected Results with CSS `calc()`
+This repository demonstrates a common, yet often overlooked, issue with the CSS `calc()` function: errors arising from unit incompatibility and missing spaces in calculations.  Incorrect usage can lead to unexpected rendering behavior across different browsers and screen sizes. The `bug.css` file showcases the problematic code, while `bugSolution.css` provides the corrected version.
