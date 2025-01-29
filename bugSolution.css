@@ -1,0 +1,28 @@
+/* Correct usage of calc() */
+#container {
+  width: calc(100% - 10px);
+  /* Correct: Space between 100% and - */
+}
+
+#element {
+  height: calc(50px + 2em); /* Correct: Compatible units */
+}
+
+/* Incorrect usage of calc() */
+#incorrect-container {
+  width: calc(100%-10px); /* Incorrect: Missing space */
+}
+
+#incorrect-element {
+  height: calc(50px + 10%); /* Incorrect: Incompatible units */
+}
+
+/*Use compatible units*/
+#another-element{
+  width: calc(100% - 2rem);
+}
+
+/* Use spaces correctly */
+#another-container{
+  width: calc( 50% - 10px);
+} 
